@@ -196,3 +196,4 @@ button {
 .btn-logout { background: rgba(248, 113, 113, 0.1); color: var(--danger); border: 1px solid var(--danger); font-size: 0.75rem; padding: 5px 10px; }
 .login-prompt { text-align: center; color: var(--text-muted); font-style: italic; border-style: dashed; }
 .read-only { font-size: 0.7rem; color: var(--text-muted); opacity: 0.5; padding-right: 10px; }
+
