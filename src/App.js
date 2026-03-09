@@ -15,7 +15,7 @@ function App() {
   const [searchTerm, setSearchTerm] = useState("");
   const [time, setTime] = useState(new Date().toLocaleTimeString());
 
-  const API = "https://student-managementsystemb.onrender.com/"; // UPDATE THIS TO YOUR RENDER URL
+  const API = "https://student-managementsystemb.onrender.com"; // UPDATE THIS TO YOUR RENDER URL
   const ADMIN_EMAIL = "abhiraj.srivast254@gmail.com";
 
   useEffect(() => {
