@@ -91,7 +91,7 @@ function App() {
       <nav className="navbar">
         <div className="nav-logo">
           <div className="logo-icon">E</div>
-          <div><h1>EduManage Pro</h1><span className="system-status">Online • {time}</span></div>
+          <div><h1>Edufly Pro</h1><span className="system-status">Online • {time}</span></div>
         </div>
         <div className="nav-actions">
           <input className="nav-search" placeholder="Search..." onChange={(e) => setSearchTerm(e.target.value)} />
