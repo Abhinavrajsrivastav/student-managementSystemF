@@ -14,7 +14,7 @@ function App() {
   const [searchTerm, setSearchTerm] = useState("");
   const [time, setTime] = useState(new Date().toLocaleTimeString());
 
-  const API = "http://localhost:8081";
+  const API = "https://student-managementsystemb.onrender.com";
   const ADMIN_EMAIL = "abhiraj.srivast254@gmail.com";
 
   // --- Auth & Data Loading ---
