@@ -87,24 +87,36 @@ function App() {
 
   return (
     <div className="container">
-      {/* NAVBAR */}
-      <nav className="navbar">
-        <div className="nav-logo">
-          <div className="logo-icon">E</div>
-          <div><h1>Edufly Pro</h1><span className="system-status">Online • {time}</span></div>
-        </div>
-        <div className="nav-actions">
-          <input className="nav-search" placeholder="Search..." onChange={(e) => setSearchTerm(e.target.value)} />
-          {user ? (
-            <div className="user-info">
-              <span className="user-name">{user.displayName}</span>
-              <button className="btn-logout" onClick={handleLogout}>Logout</button>
-            </div>
-          ) : (
-            <button className="btn-login" onClick={handleLogin}>Login</button>
-          )}
-        </div>
-      </nav>
+     {/* NAVBAR */}
+<nav className="navbar">
+  <div className="nav-logo">
+    <div className="logo-icon">A</div>
+    <div>
+      <div className="logo-flex">
+        <h1>Edufly Pro</h1>
+      </div>
+      <span className="system-status">
+        Student Management Portal for <span className="highlight-green">ABES Engineering College</span> Students • {time}
+      </span>
+    </div>
+  </div>
+  
+  <div className="nav-actions">
+    <input 
+      className="nav-search" 
+      placeholder="Search students..." 
+      onChange={(e) => setSearchTerm(e.target.value)} 
+    />
+    {user ? (
+      <div className="user-info">
+        <span className="user-name">{user.displayName}</span>
+        <button className="btn-logout" onClick={handleLogout}>Logout</button>
+      </div>
+    ) : (
+      <button className="btn-login" onClick={handleLogin}>Login</button>
+    )}
+  </div>
+</nav>
 
       {/* DASHBOARD */}
       <div className="dashboard-row">
